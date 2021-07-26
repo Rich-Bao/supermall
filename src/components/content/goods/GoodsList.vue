@@ -27,6 +27,6 @@ export default {
   .goods {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;/*均等分*/
   }
 </style>

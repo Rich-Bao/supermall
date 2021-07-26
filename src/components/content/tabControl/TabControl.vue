@@ -45,7 +45,7 @@ export default {
 .tab-control-item {
   flex: 1;
   height: 40px;
-  line-height: 40px;
+  line-height: 40px;/*可以继承*/
 }
 .tab-control-item span {
   padding: 5px;

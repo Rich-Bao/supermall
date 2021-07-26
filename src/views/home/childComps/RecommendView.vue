@@ -30,6 +30,8 @@ name: "RecommendView",
   font-size: 14px;
   padding-bottom: 30px;
   border-bottom: 10px solid #eee;
+  width: 100%;
+
 }
 
 .recommend-item {
@@ -37,9 +39,9 @@ name: "RecommendView",
   text-align: center;
 }
 
-.recommend img {
-  width: 80px;
-  height: 80px;
+.recommend-item img {
+  width: 70px;
+  height: 70px;
   margin-bottom: 10px;
 }
 </style>

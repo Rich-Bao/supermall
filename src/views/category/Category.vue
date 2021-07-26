@@ -114,8 +114,15 @@ export default {
 
   },
   mounted() {
-    new BScroll(document.querySelector('.wrapper'),{
-
+    this.scroll=new BScroll(document.querySelector('.wrapper'),{
+      probeType: 3,
+      pullUpLoad: true
+    })
+    this.scroll.on('scroll',(position)=>{
+      console.log(position);
+    })
+    this.scroll.on('pullingUp',()=>{
+      console.log('')
     })
   }
 }
@@ -125,5 +132,6 @@ export default {
 .wrapper {
 height: 150px;
   background-color: red;
+  overflow: hidden;
 }
 </style>

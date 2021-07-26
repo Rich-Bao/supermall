@@ -7,7 +7,7 @@ const Home = () => import('@/views/home/Home')
 const Category = () => import('@/views/category/Category')
 const Profile = () => import('@/views/profile/Profile')
 const Cart = () => import('@/views/cart/Cart')
-
+const Detail =() => import("@/views/detail/Detail")
 //2.创建router
 const routes = [
   {
@@ -29,7 +29,12 @@ const routes = [
   {
     path: '/cart',
     component: Cart
+  },
+  {
+    path: '/detail/:iid',
+    component: Detail
   }
+
 ]
 const router = new VueRouter({
   routes,

@@ -1,3 +1,4 @@
+//配置路径别名
 module.exports = {
   configureWebpack: {
     resolve: {
